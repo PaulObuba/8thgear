@@ -1,0 +1,79 @@
+body {
+  font-family: monospace;
+  background-color: rgb(8 24 44);
+  font-size: 2rem;
+  margin: 0;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: ariablack;
+}
+
+span {
+  color: red;
+}
+
+p {
+  text-align: center;
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.image {
+  display: flex;
+  gap: 2rem;
+  width: 15rem;
+  height: 15rem;
+  margin: 3rem;
+  margin-bottom: 5rem;
+}
+
+h3 {
+  margin-bottom: 10px;
+  margin-left: 3rem;
+}
+
+.video {
+  margin: 0 3rem;
+  margin-bottom: 1rem;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tipText {
+  visibility: hidden;
+  font-size: 1rem;
+  width: 130px;
+  color: #fff;
+  border-radius: 6px;
+  /* Position the tooltip text */
+  position: absolute;
+  right: -14px;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tipText {
+  visibility: visible;
+}

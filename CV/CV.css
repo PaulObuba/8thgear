@@ -1,0 +1,60 @@
+body {
+    font-family: monospace;
+    font-size: 20px;
+    padding: 50px;
+    margin: 0;
+}
+
+main {
+    background-color: rgb(240 240 240);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: start;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.image {
+    display: flex;
+}
+
+.name {
+    font-family: ariablack;
+    font-size: 34px;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-right: 15rem;
+}
+
+.objective {
+    display: flex;
+    justify-content: start;
+    align-itmes: start;
+}
+
+.skills {
+    display: flex;
+    justify-content: start;
+    align-itmes: start;
+}
+
+.projects {
+    display: flex;
+    justify-content: start;
+    align-itmes: start;
+}
+
+.reference {
+    display: flex;
+    justify-content: start;
+    align-itmes: start;
+}
