@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    background-image: url("./images/paris.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: myImages;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes myImages {
+    20%  {background-image: url("./images/food1.jpg");}
+    40%  {background-image: url("./images/conrn.jpg");}
+    60%  {background-image: url("./images/plate.jpg");}
+    80%  {background-image: url("./images/food2.jpg");}
+    100%  {background-image: url("./images/breckfast.jpg");}
+}
